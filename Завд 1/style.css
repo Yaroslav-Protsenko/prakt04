@@ -1,0 +1,100 @@
+#palitra {
+    height: 160px;
+    max-width: 160px;
+    margin: 0;
+    padding: 0;
+}
+
+#color {
+
+    height: 50px;
+    width: 50px;
+    background-color: antiquewhite;
+    float: left;
+    border: 1px solid black;
+}
+#yellow{
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    float: left;
+    border: 1px solid black;
+}
+#orange{
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+    float: left;
+    border: 1px solid black;
+}
+#green{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    float: left;
+    border: 1px solid black;
+}
+#violet{
+    background-color: violet;
+    height: 50px;
+    width: 50px;
+    float: left;
+    border: 1px solid black;
+}
+#red{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    float: left;
+    border: 1px solid black;
+}
+#blue{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    float: left;
+    border: 1px solid black;
+}
+#aqua{
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    float: left;
+    border: 1px solid black;
+}
+#chartreuse{
+    background-color: chartreuse;
+    height: 50px;
+    width: 50px;
+    float: left;
+    border: 1px solid black;
+}
+#gray{
+    background-color: gray;
+    height: 50px;
+    width: 50px;
+    float: left;
+    border: 1px solid black;
+}
+#polotno{
+    border: 1px solid black;
+    height: 170px;
+    max-width: 396px;
+    margin: 0;
+    padding: 0;
+}
+#polotno>div{
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    color: beige;
+}
+#polotno>p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+

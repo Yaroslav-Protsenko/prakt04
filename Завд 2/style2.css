@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+}
+
+#wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #d5d5d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card,
+#card1,
+#card2 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    perspective: 1000px;
+
+}
+
+#front,
+#back,
+#front1,
+#back1,
+#front2,
+#back2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    backface-visibility: hidden;
+    background-color: #fff;
+    transition: 1s transform ease-in;
+}
+
+#front img,
+#front1 img,
+#front2 img {
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+}
+
+#back img,
+#back1 img,
+#back2 img {
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+}
+
+#front,
+#front1,
+#front2 {
+    transform: rotateY(180deg);
+}
